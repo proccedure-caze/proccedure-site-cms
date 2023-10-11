@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "types": ["@cloudflare/workers-types","jest"],
+    "jsx": "react-jsx",
+    "jsxFragmentFactory": "Fragment",
+    "jsxFactory": "React.createElement",
+    "jsxImportSource": "hono/jsx"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "__integration-tests__","src/cms/util/build.mjs"]
+}
